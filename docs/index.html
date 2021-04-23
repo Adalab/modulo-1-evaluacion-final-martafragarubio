@@ -12,16 +12,24 @@
   </head>
 
   <body>
-    <header>
-      <nav><a>hamburguesa fija tengo el png</a></nav>
-      <img /> foto ciudad
-      <h1>
-        <span>anonymous</span>
-        <span>proxy</span>
-      </h1>
-      <h2>In hac habitase platea dictumst.</h2>
-      <a>id que lleva al footer</a>
+    <header class="header-container">
+      <div class="menu">
+        <a href="https://adalab.es/" target="_blank"
+          ><img src="./assets/images/ico-menu.svg" title="menu"
+        /></a>
+      </div>
+      <div class="photo-introduction">
+        <h1 class="title">
+          <span class="title-item">anonymous</span>
+          <span class="title-item">proxy</span>
+        </h1>
+        <h2 class="subtitle">In hac habitase platea dictumst.</h2>
+      </div>
+      <div class="moving-bottom">
+        <a href="#bottom"></a>
+      </div>
     </header>
+
     <main>
       <section class="section-one">
         <small>Insominia Tips</small>
@@ -29,9 +37,9 @@
           <h2>Looking through a window</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            temporibus officiis doloribus minus nostrum in libero, earum,
-            deserunt aperiam, aliquam possimus? Qui nesciunt impedit magnam
-            mollitia, quis voluptatum laboriosam eius!
+            temporibus officiis doloribus minus nostrum in libero, earum, deserunt
+            aperiam, aliquam possimus? Qui nesciunt impedit magnam mollitia, quis
+            voluptatum laboriosam eius!
           </p>
           <a>go!</a>
         </article>
@@ -53,26 +61,50 @@
         <a>More reasons</a>
       </section>
     </main>
-    <footer>
-      <a>id que lleva al header</a>
+
+    <footer class="footer-container">
+      <div class="moving-top">
+        <a href="#top"></a>
+      </div>
       <nav class="nav-one">
-        <ul>
-          <li><a>articles</a></li>
-          <li><a>books</a></li>
-          <li><a>events</a></li>
-          <li><a>reasons</a></li>
-          <li><a>tips</a></li>
+        <ul clas="nav-one-link">
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link">articles</a>
+          </li>
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link">books</a>
+          </li>
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link">events</a>
+          </li>
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link">reasons</a>
+          </li>
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link">tips</a>
+          </li>
         </ul>
       </nav>
       <nav class="nav-two">
-        <ul>
-          <li><a>twitter</a></li>
-          <li><a>instagram</a></li>
-          <li><a>mastodon.social</a></li>
+        <ul clas="nav-two-link">
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link">twitter</a>
+          </li>
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link">instagram</a>
+          </li>
+          <li class="link">
+            <a href="https://adalab.es/" target="_blank" class="link"
+              >mastodon.social</a
+            >
+          </li>
         </ul>
       </nav>
-      <small>&copy;2021</small>
-      <small>we ♡ components</small>
+      <div class="copy-final">
+        <small class="copy">&copy;2021</small>
+        <small class="final">we ♡ components</small>
+      </div>
     </footer>
+
   </body>
 </html>
