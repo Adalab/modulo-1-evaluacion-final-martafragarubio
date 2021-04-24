@@ -20,23 +20,28 @@
   background-repeat: no-repeat;
   background-position: center;
   transform: translate(0, -50%);
-  animation: play 7s steps(40) infinite;
+  animation: play 5s steps(25) infinite;
 }
 @keyframes play {
   0% {
     background-color: #eff9ff;
+    background-position-y: top;
   }
   25% {
-    background-color: #8ccbea;
+    background-color: #304268;
+    background-position-y: bottom;
   }
   50% {
-    background-color: #304268;
+    background-color: #8ccbea;
+    background-position-y: top;
   }
   75% {
-    background-color: #8ccbea;
+    background-color: #304268;
+    background-position-y: bottom;
   }
   100% {
     background-color: #eff9ff;
+    background-position-y: top;
   }
 }
 .footer-links {
