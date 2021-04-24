@@ -31,16 +31,18 @@
   font-size: 42px;
   line-height: 55px;
   text-align: center;
+  font-weight: bold;
   text-transform: uppercase;
-  font-family: "RobotoSlab";
+  font-family: "Roboto Slab";
   /*padding-top: 220px;*/
   padding-bottom: 10px;
 }
-.title-item {
+.title-header {
   display: block;
   text-align: center;
 }
 .subtitle {
+  font-family: "Roboto Regular";
   color: #ffffff;
   font-size: 16px;
   text-align: center;

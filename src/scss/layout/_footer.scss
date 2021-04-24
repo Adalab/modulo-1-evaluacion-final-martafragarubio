@@ -1,3 +1,8 @@
+/** {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}*/
 .footer-container {
   background-color: #304268;
   display: flex;
@@ -30,6 +35,7 @@
   padding-bottom: 30px;
 }
 .link {
+  font-family: "Roboto Regular";
   color: #ffffff;
   font-size: 16px;
   list-style: none;
@@ -37,6 +43,7 @@
   text-decoration: none;
 }
 .copy-final {
+  font-family: "Roboto Regular";
   color: #ffffff;
   font-size: 14px;
   text-align: center;
