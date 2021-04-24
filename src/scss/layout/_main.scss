@@ -60,10 +60,12 @@
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-.go:hover {
-  background-color: #f26002;
-  color: #ffffff;
+  transition: color ease 0.8s, border-color ease 0.8s, font-size ease 0.8s;
+  &:hover {
+    color: #f0cab3;
+    border-color: #f0cab3;
+    font-size: 16px;
+  }
 }
 .section-two {
   background-color: #eff9ff;
@@ -118,6 +120,7 @@
   font-size: 20px;
   font-weight: bold;
   line-height: 2.25px;
+  transition: transform 450ms;
 }
 .item5-button {
   font-family: "Roboto Medium";
@@ -135,6 +138,10 @@
 .item5-button:hover {
   background-color: #304268;
   color: #eff9ff;
+}
+.item5:hover {
+  transition: transform 125ms;
+  transform: translateY(10px);
 }
 
 @media all and (min-width: 768px) {
