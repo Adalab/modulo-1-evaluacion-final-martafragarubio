@@ -61,6 +61,24 @@
   background-position: center;
   text-align: center;
   margin-bottom: 53px;
+  animation: stop 4s steps(20) infinite;
+}
+@keyframes stop {
+  0% {
+    background-position-y: center;
+  }
+  25% {
+    background-position-y: bottom;
+  }
+  50% {
+    background-position-y: center;
+  }
+  75% {
+    background-position-y: bottom;
+  }
+  100% {
+    background-position-y: center;
+  }
 }
 
 @media all and (min-width: 768px) {
