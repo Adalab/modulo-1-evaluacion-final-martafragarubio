@@ -9,7 +9,7 @@
 .moving-top {
   width: 45px;
   height: 45px;
-  position: absolute;
+  /*position: absolute;*/
   border-radius: 50%;
   background-color: #ffffff;
   background-image: url(../images/ico-arrow.svg);
@@ -17,15 +17,18 @@
   background-position: center;
   transform: translate(0, -50%);
 }
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .nav-one,
 .nav-two {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 30px;
 }
-/*.nav-one {
-  padding-top: 60px;
-}*/
 .link {
   color: #ffffff;
   font-size: 16px;
@@ -47,14 +50,19 @@
 
 @media all and (min-width: 768px) {
   .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-links {
+    width: 100%;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    padding-top: 45px;
+    align-items: center;
+    /*padding-left: 39px;
+    padding-right: 39px;*/
   }
-  /*.moving-top {
-    transform: translate(0, -200%);
-  }*/
   .copy-final {
     order: 0;
   }
