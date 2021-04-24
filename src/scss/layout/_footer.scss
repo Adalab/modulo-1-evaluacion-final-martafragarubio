@@ -14,13 +14,30 @@
 .moving-top {
   width: 45px;
   height: 45px;
-  /*position: absolute;*/
   border-radius: 50%;
   background-color: #ffffff;
   background-image: url(../images/ico-arrow.svg);
   background-repeat: no-repeat;
   background-position: center;
   transform: translate(0, -50%);
+  animation: play 10s steps(40) infinite;
+}
+@keyframes play {
+  0% {
+    background-color: #eff9ff;
+  }
+  25% {
+    background-color: #8ccbea;
+  }
+  50% {
+    background-color: #304268;
+  }
+  75% {
+    background-color: #8ccbea;
+  }
+  100% {
+    background-color: #eff9ff;
+  }
 }
 .footer-links {
   display: flex;
@@ -41,6 +58,9 @@
   list-style: none;
   line-height: 30px;
   text-decoration: none;
+}
+.link:hover {
+  color: #f26002;
 }
 .copy-final {
   font-family: "Roboto Regular";

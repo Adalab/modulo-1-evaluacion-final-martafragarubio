@@ -60,11 +60,13 @@
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  transition: color ease 0.8s, border-color ease 0.8s, font-size ease 0.8s;
+  transition: color ease 0.8s, border-color ease 0.8s, font-size ease 0.8s,
+    border ease 0.8s;
   &:hover {
-    color: #f0cab3;
-    border-color: #f0cab3;
+    color: #8ccbea;
+    border-color: #8ccbea;
     font-size: 16px;
+    border: dotted;
   }
 }
 .section-two {
