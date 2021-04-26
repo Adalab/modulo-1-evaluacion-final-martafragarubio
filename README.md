@@ -1,39 +1,22 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# EVALUACIÓN FINAL/MOD1/MARTA FRAGA
 
-# Adalab web starter kit
+Hey! Este es mi proyecto final para el módulo 1. He utilizado Starter Kit, que está creado en **node y gulp**. ¿Y qué es ese Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit me ha ayudado a trabajar más cómodamente,automatizando tareas.
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+En mi Kit hay 3 tipos de ficheros y carpetas:
 
-En el Kit hay 3 tipos de ficheros y carpetas:
-
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
+- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no los he modificado.
+- La carpeta `src/`: son los ficheros de mi página web, como HTML y CSS.
+- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancO el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
 
 ## Guía de inicio rápido
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
-
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
-
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
-
-```bash
-npm install
-```
+> **NOTA:** Me he instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
 
 ### Pasos para arrancar el proyecto:
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+Una vez instaladas las dependencias del Starter Kit que he usado, se arranca el proyecto. **El proyecto lo he arrancado cada vez que me he puesto a programar.** Para ello he utilizado el comando:
 
 ```bash
 npm start
@@ -41,41 +24,13 @@ npm start
 
 Este comando:
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
+- **Abre una ventana de Chrome y muestra mi página web**, al igual que hace el plugin de VS Code Live Server (Go live).
+- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifique un fichero **refresca tu página en Chrome**.
 - También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+  - Convierte los ficheros SASS en CSS.
+  - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
-
-### Pasos para publicar el proyecto en GitHub Pages:
-
-Para generar tu página para producción ejecuta el comando:
-
-```bash
-npm run docs
-```
-
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
+Después de ejecutar `npm start` he empezado a editar todos los ficheros que están dentro de la carpeta `src/` para programar cómodamente.
 
 ## Flujo de archivos con Gulp
 
@@ -91,7 +46,7 @@ De esta manera separarmos las acciones que están en `gulpfile.js` de la configu
 
 ## Estructura de carpetas
 
-La estructura de carpetas tiene esta pinta:
+Mi estructura de carpetas tiene esta pinta:
 
 ```
 src
@@ -111,14 +66,74 @@ src
     └─ partials
 ```
 
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
+## Fases y descripción del proyecto
 
-## Vídeotutoriales del Starter kit
+El objetivo de la evaluación final del módulo 1, era desarrollar una página web en diferentes dispositivos, adaptando las mediaqueries a su uso. Así como disponer de unas serie de requisitos técnicos que le dieran propiedad y carácter a la página.
 
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
+El propósito era que volcáramos todos nuestro conocimientos de estructura en HTML, CSS, SASS, GIT y demás herramientas utilizadas durante el curso.
 
-## Falta algo?
+Inicialmente, como se detalla en la guía superior, utilicé un fichero del kit, el cual adecué en función de mi trabajo.
 
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+Trabajé en la carpeta 'src', donde fuí estructurando el HTML, en partials, y maquetando, de la misma manera, en SCSS con los layouts.
+
+Todas mis actualizaciones se reflejan en la carpeta 'public' y 'docs'. En el enlace ami GitHub Pages, se pueden ver los diferentes pasos que seguí.
+
+## Key Topics
+
+He utilizado las siguientes herramientas:
+
+**Command-line basics**
+-Navigating the file tree
+-Creating, copying, and removing files and directories
+**HTML**
+-Semantic elements, tags
+-Attributes
+-Best practices: indentation, file naming conventions and directory structure
+**CSS**
+-Order of importance
+-Class vs. id
+-Selectors
+-Typography
+-Box model
+-Positioning and floats
+-Color: hexadecimal, rgb and named
+-Transitions
+-Animations
+**Git & Git workflow/Node**
+-git clone
+-git add
+-git commit
+-git push
+-git pull
+-npm run docs
+-npm start
+**GitHub**
+-Create a repository
+-Deploy to personal pages
+
+### Proyecto:
+
+El proyecto realizado, su principal uso es de aprendizaje:
+-Crear links que deriven a diferentes url, en diferentes pestañas
+-Scroll down y scroll up
+-Buttons interactivos
+-links
+-menu
+-animaciones
+-uso de grid
+-uso de flexbox
+-variables CSS
+
+### Desafíos:
+
+El mayor desafío fue integrar todos los conocimientos y al estructura general de HTML y CSS, para qye construyeran una página sólida y bien distribuida.
+
+Dentro de dichos desafíos, muchos están superados y asimilados. Pero aún hay otros que quedan por implementar, como son:
+-la columna central, cuya consideración hubiera sido mejor tenerla desde el inicio
+-uso de ciertas herramientas, como BEM, para facilitar la lectura de código
+-uso de mixins y funciones
+-mejora de otros aspectos en cuanto a lenguaje HTML y CSS
+
+## Conclusión
+
+Esta evaluación, me ha permitido condensar y ordenar mis conocimientos. Así como reflexionar sobre errores y mejoras.
