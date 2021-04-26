@@ -1,6 +1,6 @@
 .footer-container {
-  width: 100%;
-  background-color: #304268;
+  /*width: 100%;*/
+  background-color: $colorSecond;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,7 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: $colorBackground;
   background-image: url(../images/ico-arrow.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -19,23 +19,23 @@
 }
 @keyframes play {
   0% {
-    background-color: #eff9ff;
+    background-color: $colorOne;
     background-position-y: top;
   }
   25% {
-    background-color: #304268;
+    background-color: $colorSecond;
     background-position-y: bottom;
   }
   50% {
-    background-color: #8ccbea;
+    background-color: $colorTip;
     background-position-y: top;
   }
   75% {
-    background-color: #304268;
+    background-color: $colorSecond;
     background-position-y: bottom;
   }
   100% {
-    background-color: #eff9ff;
+    background-color: $colorOne;
     background-position-y: top;
   }
 }
@@ -52,19 +52,19 @@
   padding-bottom: 30px;
 }
 .link {
-  font-family: "Roboto Regular";
-  color: #ffffff;
+  font-family: $fontTextSecond;
+  color: $colorBackground;
   font-size: 16px;
   list-style: none;
   line-height: 30px;
   text-decoration: none;
 }
 .link:hover {
-  color: #f26002;
+  color: $colorButton;
 }
 .copy-final {
-  font-family: "Roboto Regular";
-  color: #ffffff;
+  font-family: $fontTextSecond;
+  color: $colorBackground;
   font-size: 14px;
   text-align: center;
   display: flex;
